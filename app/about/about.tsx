@@ -1,3 +1,7 @@
+import {Link} from "react-router";
+
 export function About() {
-    return <div></div>
+    return <>
+        <Link to="/">Go back</Link>
+    </>
 }
