@@ -1,3 +1,4 @@
+/*
 @import "tailwindcss";
 
 @theme {
@@ -12,4 +13,12 @@ body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+}
+*/
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
